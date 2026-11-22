@@ -1,0 +1,9 @@
+ml-1m
+ml-1m.zip
+*.dat
+import/*.csv
+.env
+*.zip
+__pycache__/
+.venv/
+.DS_Store

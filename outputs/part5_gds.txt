@@ -1,0 +1,417 @@
++-----------+
+| graphName |
++-----------+
++-----------+
+
+0 rows
+ready to start consuming query after 1 ms, results consumed after another 10 ms
++-----------+
+| graphName |
++-----------+
++-----------+
+
+0 rows
+ready to start consuming query after 1 ms, results consumed after another 0 ms
++-----------+
+| graphName |
++-----------+
++-----------+
+
+0 rows
+ready to start consuming query after 1 ms, results consumed after another 0 ms
++-----------+
+| graphName |
++-----------+
++-----------+
+
+0 rows
+ready to start consuming query after 1 ms, results consumed after another 0 ms
++-----------+
+| graphName |
++-----------+
++-----------+
+
+0 rows
+ready to start consuming query after 1 ms, results consumed after another 0 ms
++-----------+
+| graphName |
++-----------+
++-----------+
+
+0 rows
+ready to start consuming query after 10 ms, results consumed after another 1 ms
+0 rows
+ready to start consuming query after 17 ms, results consumed after another 0 ms
+0 rows
+ready to start consuming query after 8 ms, results consumed after another 0 ms
+0 rows
+ready to start consuming query after 7 ms, results consumed after another 0 ms
+0 rows
+ready to start consuming query after 28600 ms, results consumed after another 0 ms
+Created 50000 relationships, Set 50000 properties
++-----------------------------------------------------------------+
+| movies_with_co_rated | co_rated_edges | min_weight | max_weight |
++-----------------------------------------------------------------+
+| 793                  | 50000          | 157        | 1960       |
++-----------------------------------------------------------------+
+
+1 row
+ready to start consuming query after 12 ms, results consumed after another 88 ms
++----------------------------------------------+
+| graphName    | nodeCount | relationshipCount |
++----------------------------------------------+
+| "movieGraph" | 3883      | 100000            |
++----------------------------------------------+
+
+1 row
+ready to start consuming query after 2 ms, results consumed after another 106 ms
++-----------------------------+
+| didConverge | ranIterations |
++-----------------------------+
+| TRUE        | 88            |
++-----------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 150 ms
++-------------------------------------+
+| nodePropertiesWritten | didConverge |
++-------------------------------------+
+| 3883                  | TRUE        |
++-------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 134 ms
++--------------------------------------------------------------------------------------------------------------------------------+
+| title                                            | year | pagerank | co_rated_neighbours | ratings | high_ratings | avg_rating |
++--------------------------------------------------------------------------------------------------------------------------------+
+| "American Beauty"                                | 1999 | 9.973    | 673                 | 3428    | 2853         | 4.32       |
+| "Star Wars: Episode IV - A New Hope"             | 1977 | 9.432    | 698                 | 2991    | 2622         | 4.45       |
+| "Star Wars: Episode V - The Empire Strikes Back" | 1980 | 9.39     | 701                 | 2990    | 2510         | 4.29       |
+| "Raiders of the Lost Ark"                        | 1981 | 8.278    | 675                 | 2514    | 2260         | 4.48       |
+| "Fargo"                                          | 1996 | 7.292    | 619                 | 2513    | 2074         | 4.25       |
+| "Silence of the Lambs, The"                      | 1991 | 7.024    | 628                 | 2578    | 2252         | 4.35       |
+| "Godfather, The"                                 | 1972 | 6.575    | 596                 | 2223    | 1989         | 4.52       |
+| "Shawshank Redemption, The"                      | 1994 | 6.527    | 599                 | 2227    | 2046         | 4.55       |
+| "Matrix, The"                                    | 1999 | 6.519    | 589                 | 2590    | 2171         | 4.32       |
+| "Sixth Sense, The"                               | 1999 | 6.31     | 584                 | 2459    | 2163         | 4.41       |
+| "Saving Private Ryan"                            | 1998 | 6.247    | 598                 | 2653    | 2260         | 4.34       |
+| "Back to the Future"                             | 1985 | 5.992    | 586                 | 2583    | 1910         | 3.99       |
+| "Star Wars: Episode VI - Return of the Jedi"     | 1983 | 5.868    | 579                 | 2883    | 2127         | 4.02       |
+| "Schindler's List"                               | 1993 | 5.808    | 582                 | 2304    | 2071         | 4.51       |
+| "Pulp Fiction"                                   | 1994 | 5.699    | 565                 | 2171    | 1770         | 4.28       |
++--------------------------------------------------------------------------------------------------------------------------------+
+
+15 rows
+ready to start consuming query after 2 ms, results consumed after another 586 ms
++----------------------------------------------------------------------------+
+| pearson_with_ratings | pearson_with_high_ratings | pearson_with_avg_rating |
++----------------------------------------------------------------------------+
+| 0.918                | 0.982                     | 0.428                   |
++----------------------------------------------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 420 ms
++-----------------------------------------------------------------------------------------+
+| title                                            | ratings | avg_rating | pagerank_rank |
++-----------------------------------------------------------------------------------------+
+| "American Beauty"                                | 3428    | 4.32       | 1             |
+| "Star Wars: Episode IV - A New Hope"             | 2991    | 4.45       | 2             |
+| "Star Wars: Episode V - The Empire Strikes Back" | 2990    | 4.29       | 3             |
+| "Star Wars: Episode VI - Return of the Jedi"     | 2883    | 4.02       | 13            |
+| "Jurassic Park"                                  | 2672    | 3.76       | 29            |
+| "Saving Private Ryan"                            | 2653    | 4.34       | 11            |
+| "Terminator 2: Judgment Day"                     | 2649    | 4.06       | 16            |
+| "Matrix, The"                                    | 2590    | 4.32       | 9             |
+| "Back to the Future"                             | 2583    | 3.99       | 12            |
+| "Silence of the Lambs, The"                      | 2578    | 4.35       | 6             |
++-----------------------------------------------------------------------------------------+
+
+10 rows
+ready to start consuming query after 1 ms, results consumed after another 723 ms
++--------------+
+| graphName    |
++--------------+
+| "movieGraph" |
++--------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 1 ms
+0 rows
+ready to start consuming query after 84 ms, results consumed after another 0 ms
+Deleted 50000 relationships
+0 rows
+ready to start consuming query after 260559 ms, results consumed after another 0 ms
+Created 50000 relationships, Set 50000 properties
++--------------------------------------------------------------+
+| users_with_similar | similar_edges | min_weight | max_weight |
++--------------------------------------------------------------+
+| 1222               | 50000         | 117        | 734        |
++--------------------------------------------------------------+
+
+1 row
+ready to start consuming query after 4 ms, results consumed after another 22 ms
++--------------------------------------------------+
+| graphName        | nodeCount | relationshipCount |
++--------------------------------------------------+
+| "userSimilarity" | 6040      | 100000            |
++--------------------------------------------------+
+
+1 row
+ready to start consuming query after 2 ms, results consumed after another 261 ms
++--------------------------------------------------+
+| communityCount | modularity          | ranLevels |
++--------------------------------------------------+
+| 4821           | 0.15539498585448236 | 2         |
++--------------------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 349 ms
++------------------------------------------------------+
+| community | users | women_pct | avg_ratings_per_user |
++------------------------------------------------------+
+| 4276      | 765   | 22.5      | 372.0                |
+| 1697      | 237   | 21.9      | 582.0                |
+| 1736      | 220   | 18.6      | 579.0                |
++------------------------------------------------------+
+
+3 rows
+ready to start consuming query after 1 ms, results consumed after another 3 ms
++----------------------------------------------------------------+
+| community | top3_genres                   | top3_share_pct     |
++----------------------------------------------------------------+
+| 1697      | ["Drama", "Comedy", "Action"] | [23.4, 17.4, 8.2]  |
+| 1736      | ["Comedy", "Drama", "Action"] | [16.9, 15.4, 13.7] |
+| 4276      | ["Drama", "Comedy", "Action"] | [19.9, 16.2, 11.2] |
++----------------------------------------------------------------+
+
+3 rows
+ready to start consuming query after 2 ms, results consumed after another 248 ms
++----------------------------------------------------------------------+
+| community | most_distinctive                                         |
++----------------------------------------------------------------------+
+| 1697      | ["Documentary x1.7", "Film-Noir x1.37", "Musical x1.25"] |
+| 1736      | ["Children's x1.29", "Action x1.19", "Adventure x1.16"]  |
+| 4276      | ["Documentary x1.14", "Western x1.1", "Crime x1.06"]     |
++----------------------------------------------------------------------+
+
+3 rows
+ready to start consuming query after 4 ms, results consumed after another 880 ms
++------------------+
+| graphName        |
++------------------+
+| "userSimilarity" |
++------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 1 ms
+0 rows
+ready to start consuming query after 42 ms, results consumed after another 0 ms
+Set 50000 properties
++---------------------------------------------+
+| graphName   | nodeCount | relationshipCount |
++---------------------------------------------+
+| "userGraph" | 6040      | 100000            |
++---------------------------------------------+
+
+1 row
+ready to start consuming query after 2 ms, results consumed after another 271 ms
++-------------------------------------------------+
+| components | largest_component | users_in_graph |
++-------------------------------------------------+
+| 1          | 1222              | 1222           |
++-------------------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 12 ms
++------------------------------------------------------------------+
+| from_user | to_user | hops | intermediate_users | chain          |
++------------------------------------------------------------------+
+| 19        | 23      | 2    | 1                  | [19, 4277, 23] |
+| 19        | 42      | 2    | 1                  | [19, 4277, 42] |
+| 23        | 42      | 2    | 1                  | [23, 4277, 42] |
+| 19        | 4277    | 1    | 0                  | [19, 4277]     |
++------------------------------------------------------------------+
+
+4 rows
+ready to start consuming query after 2 ms, results consumed after another 21 ms
++----------------------------------------------+
+| from_user | to_user | hops | strongest_chain |
++----------------------------------------------+
+| 19        | 23      | 2    | [19, 4277, 23]  |
++----------------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 8 ms
++--------------------------------------------+
+| paths | avg_hops | max_hops | within_6_pct |
++--------------------------------------------+
+| 24420 | 1.94     | 3.0      | 100.0        |
++--------------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 140 ms
++---------------------------------------+
+| userId | similar_neighbours | ratings |
++---------------------------------------+
+| 4277   | 1198               | 1743    |
+| 5831   | 888                | 1220    |
+| 424    | 886                | 1226    |
++---------------------------------------+
+
+3 rows
+ready to start consuming query after 1 ms, results consumed after another 2 ms
++-------------------------------+
+| nodeCount | relationshipCount |
++-------------------------------+
+| 1221      | 48802             |
++-------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 83 ms
++------------------------------------+
+| componentCount | largest_component |
++------------------------------------+
+| 144            | 1078              |
++------------------------------------+
+
+1 row
+ready to start consuming query after 22 ms, results consumed after another 26 ms
++-----------+
+| graphName |
++-----------+
+| "noHub"   |
++-----------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 1 ms
++-------------+
+| graphName   |
++-------------+
+| "userGraph" |
++-------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 1 ms
+0 rows
+ready to start consuming query after 49 ms, results consumed after another 0 ms
+Deleted 50000 relationships
++-------------------------------------------+
+| graphName | nodeCount | relationshipCount |
++-------------------------------------------+
+| "likes"   | 9923      | 575281            |
++-------------------------------------------+
+
+1 row
+ready to start consuming query after 2 ms, results consumed after another 585 ms
++--------------------------------------+
+| nodesCompared | relationshipsWritten |
++--------------------------------------+
+| 6038          | 60380                |
++--------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 4955 ms
++-----------+
+| graphName |
++-----------+
+| "likes"   |
++-----------+
+
+1 row
+ready to start consuming query after 2 ms, results consumed after another 1 ms
++-----------------------------------------------+
+| graphName     | nodeCount | relationshipCount |
++-----------------------------------------------+
+| "userJaccard" | 6040      | 101764            |
++-----------------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 26 ms
++-------------------------------------------------+
+| communityCount | modularity         | ranLevels |
++-------------------------------------------------+
+| 15             | 0.6258189890448225 | 3         |
++-------------------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 204 ms
++----------------------------------------------------------------------+
+| community | users | women_pct | top_age_group | avg_ratings_per_user |
++----------------------------------------------------------------------+
+| 5516      | 1067  | 24.9      | "25-34"       | 401.0                |
+| 5806      | 729   | 38.4      | "25-34"       | 95.0                 |
+| 2538      | 719   | 13.4      | "25-34"       | 107.0                |
+| 1245      | 655   | 27.8      | "25-34"       | 321.0                |
+| 4697      | 575   | 28.0      | "25-34"       | 51.0                 |
+| 2605      | 493   | 32.5      | "25-34"       | 101.0                |
+| 3169      | 490   | 25.9      | "25-34"       | 71.0                 |
+| 4943      | 459   | 15.0      | "25-34"       | 95.0                 |
+| 2148      | 324   | 27.8      | "25-34"       | 37.0                 |
+| 3748      | 235   | 64.7      | "25-34"       | 72.0                 |
++----------------------------------------------------------------------+
+
+10 rows
+ready to start consuming query after 2 ms, results consumed after another 16 ms
++-------------------+
+| women_pct_overall |
++-------------------+
+| 28.3              |
++-------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 2 ms
++---------------------------------------------------------------------------------------------------------+
+| community | top3_by_count                   | most_distinctive                                          |
++---------------------------------------------------------------------------------------------------------+
+| 1245      | ["Comedy", "Drama", "Action"]   | ["Children's x1.36", "Animation x1.28", "Fantasy x1.26"]  |
+| 2148      | ["Drama", "Comedy", "Action"]   | ["Horror x1.33", "Thriller x1.2", "Mystery x1.18"]        |
+| 2538      | ["Action", "Drama", "Thriller"] | ["Action x2.0", "Adventure x1.69", "Western x1.47"]       |
+| 2605      | ["Comedy", "Drama", "Action"]   | ["Comedy x1.7", "Romance x1.12", "Fantasy x1.07"]         |
+| 3169      | ["Drama", "Comedy", "Thriller"] | ["Film-Noir x3.14", "Documentary x2.07", "Mystery x1.86"] |
+| 3748      | ["Comedy", "Romance", "Drama"]  | ["Romance x3.1", "Comedy x1.77", "Animation x1.08"]       |
+| 4697      | ["Comedy", "Drama", "Thriller"] | ["Animation x1.39", "Horror x1.36", "Comedy x1.27"]       |
+| 4943      | ["Sci-Fi", "Action", "Drama"]   | ["Sci-Fi x2.97", "Fantasy x1.98", "Adventure x1.58"]      |
+| 5516      | ["Drama", "Comedy", "Action"]   | ["Documentary x1.55", "Film-Noir x1.3", "Mystery x1.2"]   |
+| 5806      | ["Drama", "Comedy", "Thriller"] | ["Crime x1.54", "Drama x1.39", "Thriller x1.34"]          |
++---------------------------------------------------------------------------------------------------------+
+
+10 rows
+ready to start consuming query after 1 ms, results consumed after another 914 ms
++------------------------------------+
+| componentCount | largest_component |
++------------------------------------+
+| 3              | 6038              |
++------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 5 ms
++----------------------------------------------+
+| paths  | avg_hops | max_hops | longer_than_6 |
++----------------------------------------------+
+| 120740 | 4.0      | 7.0      | 34            |
++----------------------------------------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 273 ms
++--------------------------------------------------------+
+| from_user | to_user | hops | chain                     |
++--------------------------------------------------------+
+| 19        | 23      | 3    | [19, 462, 1230, 23]       |
+| 19        | 42      | 3    | [19, 712, 2599, 42]       |
+| 23        | 42      | 2    | [23, 949, 42]             |
+| 19        | 4277    | 4    | [19, 533, 710, 549, 4277] |
++--------------------------------------------------------+
+
+4 rows
+ready to start consuming query after 2 ms, results consumed after another 11 ms
++---------------+
+| graphName     |
++---------------+
+| "userJaccard" |
++---------------+
+
+1 row
+ready to start consuming query after 1 ms, results consumed after another 0 ms
+0 rows
+ready to start consuming query after 67 ms, results consumed after another 0 ms
+Deleted 60380 relationships

@@ -1,0 +1,84 @@
+0 rows
+ready to start consuming query after 59 ms, results consumed after another 0 ms
+Added 1 constraints
+0 rows
+ready to start consuming query after 16 ms, results consumed after another 0 ms
+Added 1 constraints
+0 rows
+ready to start consuming query after 11 ms, results consumed after another 0 ms
+Added 1 constraints
+0 rows
+ready to start consuming query after 9 ms, results consumed after another 0 ms
+Added 1 indexes
+0 rows
+ready to start consuming query after 22 ms, results consumed after another 0 ms
+0 rows
+ready to start consuming query after 659 ms, results consumed after another 0 ms
+Added 6040 nodes, Set 36240 properties, Added 6040 labels
+0 rows
+ready to start consuming query after 516 ms, results consumed after another 0 ms
+Added 3901 nodes, Created 6408 relationships, Set 11667 properties, Added 3901 labels
++----------------------------------------------------------------------------------------+
+| batches | total   | timeTaken | committedOperations | failedOperations | errorMessages |
++----------------------------------------------------------------------------------------+
+| 101     | 1000209 | 26        | 1000209             | 0                | {}            |
++----------------------------------------------------------------------------------------+
+
+1 row
+ready to start consuming query after 25 ms, results consumed after another 26553 ms
++-------+
+| users |
++-------+
+| 6040  |
++-------+
+
+1 row
+ready to start consuming query after 14 ms, results consumed after another 0 ms
++--------+
+| movies |
++--------+
+| 3883   |
++--------+
+
+1 row
+ready to start consuming query after 9 ms, results consumed after another 0 ms
++---------+
+| ratings |
++---------+
+| 1000209 |
++---------+
+
+1 row
+ready to start consuming query after 31 ms, results consumed after another 0 ms
++--------+
+| genres |
++--------+
+| 18     |
++--------+
+
+1 row
+ready to start consuming query after 9 ms, results consumed after another 0 ms
++-----------+
+| has_genre |
++-----------+
+| 6408      |
++-----------+
+
+1 row
+ready to start consuming query after 18 ms, results consumed after another 0 ms
++-----------------+
+| duplicate_pairs |
++-----------------+
+| 0               |
++-----------------+
+
+1 row
+ready to start consuming query after 82 ms, results consumed after another 360 ms
++---------------------+
+| movies_without_year |
++---------------------+
+| 0                   |
++---------------------+
+
+1 row
+ready to start consuming query after 17 ms, results consumed after another 5 ms

@@ -1,0 +1,91 @@
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+COPY 6040
+COPY 3883
+COPY 1000209
+SELECT 6408
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+ANALYZE
+ users | movies | ratings | movie_genres 
+-------+--------+---------+--------------
+  6040 |   3883 | 1000209 |         6408
+(1 row)
+
+Timing is on.
+    genre    | avg_rating | ratings | high_share_pct | rating_stdev 
+-------------+------------+---------+----------------+--------------
+ Film-Noir   |      4.075 |   18261 |           76.3 |        0.933
+ Documentary |      3.933 |    7910 |           72.3 |        1.033
+ War         |      3.893 |   68527 |           69.4 |        1.065
+ Drama       |      3.766 |  354529 |           64.4 |        1.046
+ Crime       |      3.709 |   79541 |           62.0 |        1.078
+ Animation   |      3.685 |   43293 |           61.5 |        1.082
+ Mystery     |      3.668 |   40178 |           60.5 |        1.087
+ Musical     |      3.666 |   41533 |           60.5 |        1.101
+ Western     |      3.638 |   20683 |           59.5 |        1.100
+ Romance     |      3.607 |  147523 |           58.0 |        1.067
+ Thriller    |      3.570 |  189680 |           57.1 |        1.107
+ Comedy      |      3.522 |  356580 |           55.2 |        1.121
+ Action      |      3.491 |  257457 |           53.9 |        1.133
+ Adventure   |      3.477 |  133953 |           53.0 |        1.129
+ Sci-Fi      |      3.467 |  157294 |           52.9 |        1.157
+ Fantasy     |      3.447 |   36301 |           51.6 |        1.133
+ Children's  |      3.422 |   72186 |           51.6 |        1.161
+ Horror      |      3.215 |   76386 |           44.6 |        1.226
+(18 rows)
+
+Time: 153.080 ms
+Запит 4 ще 5 разів:
+Time: 150.953 ms
+Time: 166.517 ms
+Time: 153.081 ms
+Time: 151.498 ms
+Time: 155.522 ms
+              title               | avg_rating | ratings 
+----------------------------------+------------+---------
+ Close Shave, A (1995)            |      4.521 |     657
+ Usual Suspects, The (1995)       |      4.517 |    1783
+ Rear Window (1954)               |      4.476 |    1050
+ Third Man, The (1949)            |      4.452 |     480
+ Sixth Sense, The (1999)          |      4.406 |    2459
+ North by Northwest (1959)        |      4.384 |    1315
+ Silence of the Lambs, The (1991) |      4.352 |    2578
+ Chinatown (1974)                 |      4.339 |    1185
+ Manchurian Candidate, The (1962) |      4.333 |     765
+ Matrix, The (1999)               |      4.316 |    2590
+(10 rows)
+
+Time: 68.742 ms
+Запит 1 ще 5 разів:
+Time: 60.376 ms
+Time: 57.480 ms
+Time: 60.934 ms
+Time: 61.589 ms
+Time: 61.440 ms
+ path_length 
+-------------
+           4
+(1 row)
+
+Time: 1552.596 ms (00:01.553)
+Запит 6 ще 5 разів:
+Time: 1486.349 ms (00:01.486)
+Time: 1480.745 ms (00:01.481)
+Time: 1554.138 ms (00:01.554)
+Time: 1542.140 ms (00:01.542)
+Time: 1462.067 ms (00:01.462)
+Timing is off.
+ depth | kind  | nodes | user_1 
+-------+-------+-------+--------
+     0 | user  |     1 |      1
+     1 | movie |    53 |      0
+     2 | user  |  5900 |      1
+     3 | movie |  3701 |      0
+     4 | user  |  6040 |      1
+(5 rows)
+
+
